@@ -12,12 +12,12 @@ void start_menu(){
 
     string title="Welcome to xxx Rental Management System";
     int blank=(160-title.length())/2;
-
-
+    
     cout<<setfill(' ')<<setw(blank)<<" ";
     cout<<title;
     cout<<setfill('_')<<setw(209)<<endl;
-
+    //View in fullscreen window of console
+    
 }
 
 void end_title(){
